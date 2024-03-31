@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+}
+.item ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    width: 74vw;
+    height: 50px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.item ul li{
+    cursor: pointer;
+}
+.item ul li:hover{
+    color: rgb(158, 158, 158);
+}
+#Download{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+
+}
+#highlight{
+    font-weight: 600;
+}
+#promo{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#promo p{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 75vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#download-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 15 0px;
+}
+button{
+    color: white;
+    background-color: rgb(70, 70, 255);
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
